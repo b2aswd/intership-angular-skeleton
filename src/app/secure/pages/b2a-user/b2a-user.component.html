@@ -1,0 +1,22 @@
+<h1>Uživatelé</h1>
+
+<table class="b2a-table" *ngIf="userList$ | async as userList">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Jméno</th>
+            <th>E-mail</th>
+            <th>Vytvořeno</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let user of userList">
+            <td>{{ user.id }}</td>
+            <td>
+                <a [routerLink]="['/users', user.id]">{{ user.name }} {{ user.surname }}</a>
+            </td>
+            <td>{{ user.email }}</td>
+            <td>{{ user.created | date }}</td>
+        </tr>
+    </tbody>
+</table>

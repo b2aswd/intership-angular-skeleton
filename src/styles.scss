@@ -1,1 +1,80 @@
-/* You can add global styles to this file, and also import other style files */
+@import 'themes';
+
+@import '~@nebular/theme/styles/globals';
+
+@include nb-install() {
+    @include nb-theme-global();
+}
+
+/**
+* B2A LAYOUT
+*/
+.b2a-layout {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    padding: 0 !important;
+    nav {
+        .logo {
+            padding-left: 40px;
+            height: 70px;
+            display: flex;
+            align-items: center;
+            border-bottom: 1px solid #8f9bb345;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            li {
+                padding: 10px 0 10px 10px;
+                a {
+                    display: flex;
+                    text-decoration: none;
+                    span {
+                        margin-left: 10px;
+                    }
+                    nb-icon {
+                        background: #3366ff;
+                        padding: 2px;
+                        color: #fff;
+                        border-radius: 3px;
+                    }
+                    &.active {
+                        text-decoration: underline;
+                    }
+                }
+                &.logout {
+                    border-top: 1px solid #8f9bb345;
+                    a {
+                        color: #8f9bb3;
+                        nb-icon {
+                            background: #8f9bb3;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    section {
+        background-color: #fff;
+        padding-left: 20px;
+    }
+}
+
+/**
+* B2A TABLE
+*/
+table.b2a-table {
+    border-collapse: collapse;
+    width: 100%;
+    th,
+    td {
+        text-align: left;
+        padding: 8px;
+    }
+    tr:nth-child(even) {
+        background-color: #edf1f7;
+    }
+}

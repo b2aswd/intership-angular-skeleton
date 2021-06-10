@@ -1,0 +1,16 @@
+:host {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+h1 {
+    margin: 10px 0 10px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.form-control {
+    margin-bottom: 10px;
+}

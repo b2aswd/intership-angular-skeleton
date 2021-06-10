@@ -1,6 +1,6 @@
 import {Injectable} from '@angular/core';
 import {B2aAuthService} from '../../b2a-auth/b2a-auth.service';
-import {HttpInterceptor, HttpRequest, HttpHandler} from '@angular/common/http';
+import {HttpInterceptor, HttpRequest, HttpHandler, HttpHeaders} from '@angular/common/http';
 
 @Injectable()
 export class AuthInterceptor implements HttpInterceptor {

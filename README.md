@@ -1,27 +1,26 @@
-# IntershipAngularSkeleton
+# Intership Angular Skeleton
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.3.
+## Project setup
 
-## Development server
+-   [NodeJS 14](https://nodejs.org/en/)
+-   https://desktop.github.com/
+-   git clone git@github.com:b2aswd/intership-angular-skeleton.git
+-   npm install
+-   [VS Code](https://code.visualstudio.com/) or [WebStorm](https://www.jetbrains.com/webstorm/)
+-   VS Code plugins
+    -   [Angular Essentials](https://marketplace.visualstudio.com/items?itemName=johnpapa.angular-essentials)
+    -   [Prettier - Code formattern](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+    -   [Angular DevTools](https://chrome.google.com/webstore/detail/angular-developer-tools/ienfalfjdbdpebioblfackkekamfmbnh)
+    -   [Angular ESLint](https://github.com/angular-eslint/angular-eslint)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Handly tools and libraries
 
-## Code scaffolding
+-   [RxJS: Reactive Extensions Library for JavaScript](https://rxjs.dev/)
+-   NGRX: Reactive State for Angular
+    -   [@ngrx/store](https://ngrx.io/guide/store)
+    -   [@ngrx/component-store](https://ngrx.io/guide/component-store)
+-   [MQTT: The Standard for IoT Messaging](https://github.com/sclausen/ngx-mqtt)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## API
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+-   TBD
