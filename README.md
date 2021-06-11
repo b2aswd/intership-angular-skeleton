@@ -2,11 +2,13 @@
 
 ## Project setup
 
--   [NodeJS 14](https://nodejs.org/en/)
--   https://desktop.github.com/
--   git clone git@github.com:b2aswd/intership-angular-skeleton.git
--   npm install
--   [VS Code](https://code.visualstudio.com/) or [WebStorm](https://www.jetbrains.com/webstorm/)
+-   Install [NodeJS 14](https://nodejs.org/en/)
+-   Install [GitHub Desktop](https://desktop.github.com/) (git handling)
+-   Open terminal
+    -   `git clone git@github.com:b2aswd/intership-angular-skeleton.git` (it will clone repository to current directory, or you can use "Open with GitHub Desktop" action from Github website)
+    -   npm install (install the project)
+    -   npm start (run the project)
+-   [VS Code](https://code.visualstudio.com/) (recommended) or [WebStorm](https://www.jetbrains.com/webstorm/)
 -   VS Code plugins
     -   [Angular Essentials](https://marketplace.visualstudio.com/items?itemName=johnpapa.angular-essentials)
     -   [Prettier - Code formattern](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
