@@ -21,6 +21,26 @@
     -   [@ngrx/component-store](https://ngrx.io/guide/component-store)
 -   [MQTT: The Standard for IoT Messaging](https://github.com/sclausen/ngx-mqtt)
 
-## API
+## Task
 
--   TBD
+-   https://b2aswd.atlassian.net/wiki/spaces/~903084672/pages/3072327703/St+e+-+Simple+Messenger+Backend
+
+### 1. Chatroom
+
+-   List of chat rooms `GET:{{url}}/api/v1/chat-room`
+    -   Create a new chat room from the list `POST:{{url}}/api/v1/chat-room`
+-   ChatRoom `GET:{{url}}/api/v1/chat-room/:id`
+    -   List of messeges in the chat room (ChatRoom/Message)
+    -   Update chat room `PUT:{{url}}/api/v1/chat-room/:id`
+    -   Delete chat room `DELETE:{{url}}/api/v1/chat-room/:id`
+    -   Optionally you can add MQTT - subscribe to a chatroom topic `chat-room/:id`
+
+### 2. Users
+
+-   List of users (skeleton already contains simple list of users)
+    -   Crete a new user from the list
+        -   After creation, the user is visible in the list
+-   User detail
+    -   Basic user information
+    -   Actions: edit, remove
+    -   After an action is done, list of users is displayed
